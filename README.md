@@ -1,19 +1,3 @@
-# vue_shop
+一个简单的商城后台管理系统
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+技术架构：Vue2.0 + vue-router + Element-UI
