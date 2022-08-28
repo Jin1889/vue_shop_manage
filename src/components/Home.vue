@@ -3,7 +3,7 @@
     <!-- 头部区域 -->
     <el-header>
       <div>
-        <img src="../assets/heima.png" alt="">
+        <img class="logo" src="../assets/shop.png" alt="">
         <span>后台管理系统</span>
       </div>
       <el-button type="info" @click="logout">退出</el-button>
@@ -94,6 +94,11 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.logo{
+  width: 61px;
+  height: 56px;
+}
+
 .home-container {
   height: 100%;
 }
